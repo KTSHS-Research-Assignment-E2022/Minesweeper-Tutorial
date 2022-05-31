@@ -4,4 +4,11 @@ body {
     margin-top: 10px;
     border-width : 10px ;
     border-color : #cccc66 ;
+    background-color: rgb(196, 208, 212);
+}
+.box1 {
+    width:100px;
+    height:80px;
+    background:#ced;
+    border:1px solid #a7e;
 }
