@@ -2,4 +2,6 @@ body {
     margin-right: 50px;
     margin-left: 50px;
     margin-top: 10px;
+    border-width : 10px ;
+    border-color : #cccc66 ;
 }
