@@ -62,3 +62,19 @@ img {
   outline: 0;
   box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
 }
+<!--スマホとpc-->
+.pc{
+  display: block;
+}
+.sp{
+  display: none;
+}
+
+@media only screen and (max-width: 480px){
+  .pc{
+    display: none;
+  }
+  .sp{
+    display: block;
+  }
+}
