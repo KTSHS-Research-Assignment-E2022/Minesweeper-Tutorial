@@ -14,6 +14,10 @@ img {
 .heder ul{
   display: flex;
 }
+.heder ul li{
+  width: 200px;
+  text-align: center;
+}
 .m-form-text {
   height: 2.4em;
   width: 50%;
