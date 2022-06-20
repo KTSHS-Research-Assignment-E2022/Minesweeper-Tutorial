@@ -28,6 +28,9 @@ body{
   width: 200px;
   text-align: center;
 }
+#header ul li{
+  width: 20%;
+}
 .header ul li a{
   display: block;
 }
