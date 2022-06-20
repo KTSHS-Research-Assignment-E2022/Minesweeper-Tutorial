@@ -11,10 +11,12 @@
 .logo{
   text-align: center;
 }
+.unti{
+   /*コレ*/list-style: none;
+}
 .header{
   width: 1200px;
   margin: 0 auto;
-  background: #eee;
 }
 .header ul{
   display: -webkit-flex;
@@ -27,7 +29,10 @@
 .header ul li{
   width: 200px;
   text-align: center;
-  border-right: 1px solid #ddd;
+  border-right: 4px solid #222;
+}
+.header ul li:first-child{
+  border-left: 4px solid #222;
 }
 #header ul li{
   width: 20%;
