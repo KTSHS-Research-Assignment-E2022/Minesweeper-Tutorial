@@ -8,6 +8,9 @@ body{
 .title{
   font-size: 50px;
 }
+.logo{
+  text-align: center;
+}
 .header{
   width: 1200px;
   margin: 0 auto;
