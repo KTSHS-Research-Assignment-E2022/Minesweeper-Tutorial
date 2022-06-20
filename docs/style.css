@@ -1,13 +1,29 @@
-@charset "utf-8";
-
-p {
+@charset "UTF-8";
+body{
   font-size: 20px;
 }
+<<<<<<< HEAD
 .menu-item{
   font-size: 20px;
 }
 .title{
   font-size: 50px;
+=======
+.heder{
+  width: 1200px;
+  margin: 0 auto;
+  background: #eee;
+}
+.heder ul{
+  display: flex;
+}
+.heder ul li{
+  width: 200px;
+  text-align: center;
+}
+.heder ul li a{
+  display: block;
+>>>>>>> bdf598cfba76b0635a69410af33b00d03435de36
 }
 img {
   width: 300px;
