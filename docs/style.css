@@ -8,22 +8,21 @@ body{
 }
 .title{
   font-size: 50px;
-=======
-.heder{
+}
+.header{
   width: 1200px;
   margin: 0 auto;
   background: #eee;
 }
-.heder ul{
+.header ul{
   display: flex;
 }
-.heder ul li{
+.header ul li{
   width: 200px;
   text-align: center;
 }
-.heder ul li a{
+.header ul li a{
   display: block;
->>>>>>> bdf598cfba76b0635a69410af33b00d03435de36
 }
 img {
   width: 300px;
