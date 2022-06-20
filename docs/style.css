@@ -17,7 +17,12 @@ body{
   background: #eee;
 }
 .header ul{
+  display: -webkit-flex;
   display: flex;
+  -webkit-justify-items:center;
+  justify-content: center;
+  -webkit-justify-items:center;
+  align-items: center;
 }
 .header ul li{
   width: 200px;
