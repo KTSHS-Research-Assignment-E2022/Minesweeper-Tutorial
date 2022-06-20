@@ -11,6 +11,10 @@ body{
 .logo{
   text-align: center;
 }
+li {
+	width:calc(100% / 3);
+	float: left;
+}
 .header{
   width: 1200px;
   margin: 0 auto;
