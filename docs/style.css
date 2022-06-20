@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body{
+  border-top: 10px solid #79a1b1;
+}
 .p{
   font-size: 20px;
 }
