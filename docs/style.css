@@ -1,79 +1,96 @@
 @charset "UTF-8";
-body{
-  border-top: 10px solid #79a1b1;
-}
-.p{
-  font-size: 20px;
-}
-.menu-item{
-  font-size: 20px;
-}
-.title{
-  font-size: 50px;
-}
-.logo{
-  text-align: center;
-}
-.menu{
-   /*コレ*/list-style: none;
-}
-.header{
-  width: 1200px;
-  margin: 0 auto;
-}
-.header ul{
-  display: -webkit-flex;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header ul li{
-  width: 200px;
-  text-align: center;
-  border-right: 4px solid #222;
-}
-.header ul li:first-child{
-  border-left: 4px solid #222;
-}
-#header ul li{
-  width: 20%;
-}
-.header ul li a{
-  display: block;
-}
-img {
-  width: 300px;
-}
-/* スマホとpc */
-.pc{
-  display: block;
-}
-.sp{
-  display: none;
+body {
+    border-top: 10px solid #79a1b1;
 }
 
-@media only screen and (max-width: 480px){
-  .pc{
-    display: none;
-  }
-  .sp{
-    display: block;
-  }
+.p {
+    font-size: 20px;
 }
-header {
-  display: flex;
-  width: 100%;
-  height: 100px;
-  background-color: darkgrey;
-  align-items: center;
-}
- 
-.title {
-  margin-right: auto;
-}
- 
+
 .menu-item {
-  list-style: none;
-  display: inline-block;
-  padding: 10px;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.menu {
+    /*コレ*/
+    list-style: none;
+}
+
+.header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header ul {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header ul li {
+    width: 200px;
+    text-align: center;
+    border-right: 4px solid #222;
+}
+
+.header ul li:first-child {
+    border-left: 4px solid #222;
+}
+
+#header ul li {
+    width: 20%;
+}
+
+.header ul li a {
+    display: block;
+}
+
+img {
+    width: 300px;
+}
+
+/* スマホとpc */
+.pc {
+    display: block;
+}
+
+.sp {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .pc {
+        display: none;
+    }
+
+    .sp {
+        display: block;
+    }
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: darkgrey;
+    align-items: center;
+}
+
+.title {
+    margin-right: auto;
+}
+
+.menu-item {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
 }
