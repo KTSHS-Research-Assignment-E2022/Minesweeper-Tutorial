@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body {
+    border-top: 10px solid #79a1b1;
+}
+
 .p {
     font-size: 20px;
 }
@@ -17,10 +21,12 @@
 }
 
 .menu {
+    /*コレ*/
     list-style: none;
 }
 
 .header {
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -32,7 +38,7 @@
 }
 
 .header ul li {
-    width: 15vw;
+    width: 200px;
     text-align: center;
     border-right: 4px solid #222;
 }
