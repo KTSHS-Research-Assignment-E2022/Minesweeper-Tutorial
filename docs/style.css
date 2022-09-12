@@ -17,12 +17,10 @@ body {
 }
 
 .menu {
-    /*コレ*/
     list-style: none;
 }
 
 .header {
-    width: 1200px;
     margin: 0 auto;
 }
 
@@ -34,7 +32,7 @@ body {
 }
 
 .header ul li {
-    width: 200px;
+    width: 18vw;
     text-align: center;
     border-right: 4px solid #222;
 }
