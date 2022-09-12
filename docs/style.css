@@ -14,7 +14,7 @@ body{
 .logo{
   text-align: center;
 }
-.unti{
+.menu{
    /*コレ*/list-style: none;
 }
 .header{
@@ -24,9 +24,7 @@ body{
 .header ul{
   display: -webkit-flex;
   display: flex;
-  -webkit-justify-items:center;
   justify-content: center;
-  -webkit-justify-items:center;
   align-items: center;
 }
 .header ul li{
@@ -46,7 +44,7 @@ body{
 img {
   width: 300px;
 }
-<!--スマホとpc-->
+/* スマホとpc */
 .pc{
   display: block;
 }
