@@ -1,8 +1,4 @@
 @charset "UTF-8";
-body {
-    border-top: 10px solid #79a1b1;
-}
-
 .p {
     font-size: 20px;
 }
@@ -21,12 +17,10 @@ body {
 }
 
 .menu {
-    /*コレ*/
     list-style: none;
 }
 
 .header {
-    width: 1200px;
     margin: 0 auto;
 }
 
@@ -38,7 +32,7 @@ body {
 }
 
 .header ul li {
-    width: 200px;
+    width: 15vw;
     text-align: center;
     border-right: 4px solid #222;
 }
@@ -91,25 +85,3 @@ img {
         display: block;
     }
 }
-
-header {
-    display: flex;
-    width: 100%;
-    height: 100px;
-    background-color: darkgrey;
-    align-items: center;
-}
-
-.title {
-    margin-right: auto;
-}
-
-.menu-item {
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
-}
-body {
-    background-image: url("あつそうなおじさん.png");
-    background-repeat: no-repeat;
-    }
