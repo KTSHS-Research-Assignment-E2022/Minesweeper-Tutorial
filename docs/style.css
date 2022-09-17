@@ -85,3 +85,6 @@ img {
         display: block;
     }
 }
+ul {
+    display: flex;
+}
