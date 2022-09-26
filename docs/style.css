@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+
+.body{
+    background-image: url(../docs/photo/背景画像.jpg);
+}
 .p {
     font-size: 20px;
 }
