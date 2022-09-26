@@ -2,6 +2,7 @@
 
 body {
     background-image: url("./photo/背景画像.jpg");
+    background-size: cover;
 }
 p {
     font-size: 20px;
