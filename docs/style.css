@@ -1,6 +1,8 @@
 @charset "UTF-8";
 body {
-    border-top: 10px solid #79a1b1;
+    background-image: url(../docs/photo/あつそうなおじさん.png);
+    background-size: cover;
+    background-position-y: center;
 }
 
 .p {
