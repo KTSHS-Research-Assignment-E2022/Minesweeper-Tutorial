@@ -87,7 +87,9 @@ img {
 }
 
 .border-image{
-    border: 20px solid;
+    border: 16px solid;
     border-image: conic-gradient(#f5f551,#5eff5e,#84a1ff,#ff45ff,#ff5a5a,#ffbc41,#f5f551) 1;
-    height: 100px;
+    height: 62px;
+    width: 200%;
+    font-size: 50%;
 }
