@@ -1,10 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-image: url("./photo/背景画像.jpg"),url("./photo/楽天カード.png");
-    background-position: top ,left 10% bottom ;
-    background-size: 100% auto,20% auto;
-    background-repeat: no-repeat,no-repeat;
+    background-color: cornsilk;
 }
 p {
     font-size: 20px;
