@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-image: url("./photo/背景画像.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: bisque;
 }
 
 .p {
@@ -104,4 +102,8 @@ img {
     font-size: 300%;
     font-weight: bold;
     display: inline-block;
+}
+.ちんちん {
+    display: flex;
+    width: 30%;
 }
