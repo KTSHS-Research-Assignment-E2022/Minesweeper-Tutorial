@@ -1,6 +1,12 @@
 @charset "UTF-8";
+<<<<<<< HEAD
 body {
     border-top: 10px solid #79a1b1;
+=======
+
+body{
+    background-image: url("./photo/背景画像.jpg");
+>>>>>>> 3234b51312cfb597a80e881d3ac38da0db7e768b
 }
 
 .p {
@@ -85,6 +91,27 @@ img {
         display: block;
     }
 }
+<<<<<<< HEAD
 ul {
     display: flex;
 }
+=======
+
+.border-image{
+    border: 16px solid;
+    border-image: conic-gradient(#f5f551,#5eff5e,#84a1ff,#ff45ff,#ff5a5a,#ffbc41,#f5f551) 1;
+    height: 62px;
+    width: 200%;
+    font-size: 50px;
+}
+
+.example3{
+    background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 300%;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 200px;
+}
+>>>>>>> 3234b51312cfb597a80e881d3ac38da0db7e768b
