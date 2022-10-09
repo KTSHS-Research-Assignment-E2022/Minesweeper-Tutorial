@@ -1,12 +1,6 @@
 @charset "UTF-8";
-<<<<<<< HEAD
 body {
-    border-top: 10px solid #79a1b1;
-=======
-
-body{
-    background-image: url("./photo/背景画像.jpg");
->>>>>>> 3234b51312cfb597a80e881d3ac38da0db7e768b
+    background-color: bisque;
 }
 
 .p {
@@ -91,11 +85,6 @@ img {
         display: block;
     }
 }
-<<<<<<< HEAD
-ul {
-    display: flex;
-}
-=======
 
 .border-image{
     border: 16px solid;
@@ -112,6 +101,4 @@ ul {
     font-size: 300%;
     font-weight: bold;
     display: inline-block;
-    font-size: 200px;
 }
->>>>>>> 3234b51312cfb597a80e881d3ac38da0db7e768b
