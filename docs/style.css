@@ -91,7 +91,7 @@ img {
     border: 16px solid;
     border-image: conic-gradient(#f5f551,#5eff5e,#84a1ff,#ff45ff,#ff5a5a,#ffbc41,#f5f551) 1;
     height: 62px;
-    width: 200%;
+    width: 1000px;
     font-size: 50px;
 }
 
